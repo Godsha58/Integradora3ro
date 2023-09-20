@@ -1,0 +1,42 @@
+.grid {
+    display: grid;
+    grid-template-rows:300px;
+    width: 100%;
+}
+#container {
+    justify-content: center;
+    align-items: center;
+  }
+  /**
+   * @license
+   * Copyright 2019 Google LLC. All Rights Reserved.
+   * SPDX-License-Identifier: Apache-2.0
+   */
+  /* 
+    * Always set the map height explicitly to define the size of the div element
+    * that contains the map. 
+    */
+  #map {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* 
+  * Optional: Makes the sample page fill the window. 
+  */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-color: antiquewhite; */
+  }
+  .pad_left{
+    padding-left: 20px;
+  }
+  .pad_left2{
+    padding-left: 40px;
+  }
+  .bd_navbar{
+    background-color: rgb(75, 75, 75);
+  }
